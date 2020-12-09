@@ -8,7 +8,7 @@ function ProfileScreen({navigation}) {
   const user = {
     id: "17231998",
     profilePic: "https://i.pinimg.com/originals/f5/05/24/f50524ee5f161f437400aaf215c9e12f.jpg",
-    fullname: "Sandra Vieri si Bocah dari Comberan",
+    fullname: "Muhammad Fikri Septiawan",
     rekening : '081234567890'
   };
 

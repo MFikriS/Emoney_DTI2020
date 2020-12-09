@@ -28,7 +28,7 @@ const TransferSuccess = ({navigation}) => {
         <Gap height={14}/>
         <Text style={styles.datereceiverText}>20 Agustus 2020</Text>
         <Gap height={17}/>
-        <Text style={styles.datereceiverText}>Penerima: Sandra Vieri si Bocah dari Comberan</Text>
+        <Text style={styles.datereceiverText}>Penerima: Muhammad Fikri Septiawan</Text>
         <Gap height={17}/>
         <Text style={styles.datereceiverText}>081234567xxx</Text>
         <Gap height={18}/>
