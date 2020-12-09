@@ -29,7 +29,7 @@ function Home({navigation}) {
   const transactionData = [
     {
       id: "1",
-      number: "Rp. 80.000",
+      number: "Rp. 100.000",
       rekening: "081234567890",
       date : '20/08/2020'
     },
@@ -41,19 +41,19 @@ function Home({navigation}) {
     },
     {
       id: "3",
-      number: "Rp. 80.000",
+      number: "Rp. 90.000",
       rekening: "081234567890",
       date : '20/08/2020'
     },
     {
       id: "4",
-      number: "Rp. 80.000",
+      number: "Rp. 120.000",
       rekening: "081234567890",
       date : '20/08/2020'
     },
     {
       id: "5",
-      number: "Rp. 80.000",
+      number: "Rp. 150.000",
       rekening: "081234567890",
       date : '20/08/2020'
     },
@@ -62,7 +62,7 @@ function Home({navigation}) {
   return (
     <ScrollView>
 
-       {/* ------- HEADER ---------- */}
+       {}
       <View style={styles.headerContainer}>
         <Gap height={height}/>
         <Text style={styles.titleSaldo}>Saldo Anda :</Text>
@@ -71,7 +71,7 @@ function Home({navigation}) {
 
       <Gap height={20}/>
 
-       {/* ------- MENU GRID ---------- */}
+       {}
       <View style={styles.menuGrid}>
         {menuType.map(menu => {
             return(
@@ -86,7 +86,7 @@ function Home({navigation}) {
         }
       </View>
       
-       {/* ------- TRANSACTION ---------- */}
+       {}
       <View style={styles.transaction}>
         <Text style={styles.transactionTitle}>5 Transaksi Terakhir Anda</Text>
         <Gap height={10}/>
@@ -103,7 +103,9 @@ function Home({navigation}) {
         }
       </View>
 
-      {/* <Gap height={10}/> */}
+      {
+
+      }
 
     </ScrollView>
   );
@@ -124,7 +126,7 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     color: "#575757"
   },
-  //------------- MENU GRID
+
   menuGrid: {
     flexDirection: 'row',
     margin: 13,
